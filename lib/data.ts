@@ -1,8 +1,9 @@
-export type NavItem = {
-  label: string
-  href: string
-  hasDropdown?: boolean
-}
+export const navItems = [
+  { label: "Home", href: "/", hasDropdown: false },
+  { label: "Shop", href: "/shop", hasDropdown: true },
+  { label: "About", href: "/about", hasDropdown: false },
+  { label: "Contact", href: "/contact", hasDropdown: false }
+]
 
 export type Review = {
   id: string
